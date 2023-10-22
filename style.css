@@ -1,0 +1,109 @@
+/* Estils globals */
+/* Estils per a la barra de navegació */
+nav {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Restablir alguns estils per defecte */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Aplicar un color de fons i establir una font per a tota la pàgina */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Estils per a la capçalera */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-header h1 {
+  color: #007bff;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Estils per al contingut principal */
+main {
+  padding: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #333;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estils per al peu de pàgina */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Estils per a les categories */
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (resto de los estilos) */
